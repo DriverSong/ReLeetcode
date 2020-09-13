@@ -19,9 +19,6 @@ public class ReverseInteger {
         if(reverse > (Math.pow(2, 31) - 1) || reverse < -Math.pow(2, 31)) return 0;
         else return (int) reverse;
     }
-    public int reverse(int x) {
-
-    }
     public static void main(String[] args){
         ReverseInteger object = new ReverseInteger();
         int reverse = object.reverse(1534236469);
